@@ -28,7 +28,7 @@ jobs:
     - name: Build docker image and push to docker hub
       uses: mr-smithers-excellent/docker-build-push@v5
       with:
-        image: arafat0007/Reactive-Mongo-CRUD
+        image: arafat0007/reactive-mongo-crud
         tags: latest
         registry: docker.io
         dockerfile: Dockerfile
